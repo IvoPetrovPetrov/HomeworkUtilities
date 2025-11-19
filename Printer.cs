@@ -16,9 +16,16 @@
             int division = myInt2 / myInt1;
 
             Console.WriteLine("Thats my first project!");
-            Console.WriteLine("The sum of number 1 and number 2 is " + sum);
-            Console.WriteLine("The division of number 1 and number 2 is " + division);
+            Console.WriteLine("The sum of the hardcoded numbers is " + sum);
+            Console.WriteLine("The division of the hardcoded numbers is " + division);
             Console.WriteLine($"My name is {firstName} {lastName}");
+
+            Console.WriteLine("Enter number 1: ");
+            double numberOne = double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter number 2: ");
+            double numberTwo = double.Parse(Console.ReadLine());
+            double numbersSum = numberOne + numberTwo;
+            Console.WriteLine($"The sum of {numberOne} and {numberTwo} is {numbersSum}");
         }
     }
 }

@@ -26,6 +26,24 @@
             double numberTwo = double.Parse(Console.ReadLine());
             double numbersSum = numberOne + numberTwo;
             Console.WriteLine($"The sum of {numberOne} and {numberTwo} is {numbersSum}");
+
+                           
+            if (numberOne > numberTwo)
+            {
+                Console.WriteLine("Number 1 is bigger than number 2");
+            }
+            else if (numberOne < numberTwo)
+            {
+                Console.WriteLine("Number 2 is bigger than number 1");
+            }
+            else if (numberOne == numberTwo)
+            {
+                Console.WriteLine("Number 1 is equal to number 2");
+            }
+            else
+            {
+                Console.WriteLine("Have a good day");
+            }
         }
     }
 }
